@@ -1,0 +1,16 @@
+Gemfile
+README.md
+bin/githug
+githug.gemspec
+levels/contribute.rb
+levels/remote.rb
+levels/remote_add.rb
+levels/remote_url.rb
+lib/githug.rb
+lib/githug/cli.rb
+lib/githug/game.rb
+lib/githug/level.rb
+spec/githug/cli_spec.rb
+spec/githug/game_spec.rb
+spec/githug/level_spec.rb
+spec/spec_helper.rb
