@@ -16,6 +16,9 @@ def main(argv):
     except OSError as error:
         print("wordcount.py: %s: %s" % (filename, error.strerror), file=sys.stderr)
         return 1
+    except UnicodeDecodeError as error:
+        print("wordcount.py: %s: %s" % (filename, error), file=sys.stderr)
+        return 1
 
     lines = data.count("\n")
     words = len(data.split())
