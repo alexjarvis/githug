@@ -1,1 +1,1 @@
-def mean(xs): return sum(xs) / (len(xs) - 1)
+def mean(xs): return sum(xs) / len(xs)
